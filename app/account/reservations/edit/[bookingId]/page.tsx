@@ -83,6 +83,7 @@ async function page({ params }: { params: Promise<{ bookingId: string }> }) {
           </label>
           <textarea
             name="observations"
+            id="observations"
             defaultValue={observations || ""}
             className="w-full rounded-sm bg-primary-200 px-5 py-3 text-primary-800 shadow-sm"
           />
