@@ -3,7 +3,7 @@ import Filter from "@/app/_components/Filter";
 import { Suspense } from "react";
 import ReservationReminder from "../_components/ReservationReminder";
 import { FilterValue } from "../_types/CabinTypes";
-import Loading from "./loader";
+import Loading from "./loading";
 
 // the revalidate now has no effect because of searchParams use
 // export const revalidate = 3600;

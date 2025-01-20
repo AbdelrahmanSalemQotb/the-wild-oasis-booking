@@ -1,4 +1,5 @@
-import { Metadata } from "next";
+import type { Viewport } from "next";
+import type { Metadata } from "next";
 import { Josefin_Sans } from "next/font/google";
 import Header from "./_components/Header";
 import { ReservationProvider } from "./_components/ReservationContext";
@@ -17,8 +18,6 @@ export const metadata: Metadata = {
     "Wild Oasis, Wild Oasis Booking, The Wild Oasis Website, Nextjs project, Hotel, Travel, Adventure Trips, Jonas Schmedtmann, Salem, Cabin Hotel",
   applicationName: "The Wild Oasis Booking",
   referrer: "origin-when-cross-origin",
-  themeColor: "#141c24",
-  colorScheme: "dark",
   robots: "index, follow",
 
   authors: [
@@ -30,6 +29,7 @@ export const metadata: Metadata = {
 
   openGraph: {
     type: "website",
+    siteName: "The Wild Oasis Booking | Salem",
     url: "https://the-wild-oasis-website-salem.vercel.app",
     title: "The Wild Oasis Booking | Salem",
     description:
@@ -66,6 +66,11 @@ export const metadata: Metadata = {
     statusBarStyle: "black",
     title: "The Wild Oasis Booking",
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#141c24",
+  colorScheme: "dark",
 };
 
 function RootLayout({ children }: { children: React.ReactNode }) {
