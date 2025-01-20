@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Luxurious cabin hotel, located in the heart of the Italian Dolomites, surrounded by beautiful mountains and dark forests",
   keywords:
-    "Wild Oasis, Wild Oasis Booking, The Wild Oasis Website, Nextjs project, Hotel, Travel, Adventure Trips, Jonas Schmedtmann, Salem, Cabin Hotel",
+    "Wild Oasis, Wild Oasis Booking, The Wild Oasis Booking, The Wild Oasis Website, Nextjs project, Hotel, Travel, Adventure Trips, Jonas Schmedtmann, Salem, Cabin Hotel",
   applicationName: "The Wild Oasis Booking",
   referrer: "origin-when-cross-origin",
   robots: "index, follow",
@@ -30,13 +30,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "The Wild Oasis Booking | Salem",
-    url: "https://the-wild-oasis-website-salem.vercel.app",
+    url: "https://the-wild-oasis-booking-salem.vercel.app",
     title: "The Wild Oasis Booking | Salem",
     description:
       "Explore The Wild Oasis Booking. Find unique destinations, and plan your next wild getaway.",
     images: [
       {
-        url: "https://the-wild-oasis-website-salem.vercel.app/thumbnail.png",
+        url: "https://the-wild-oasis-booking-salem.vercel.app/thumbnail.png",
         width: 1920,
         height: 1080,
         alt: "Thumbnail image of The Wild Oasis Booking website",
@@ -54,10 +54,10 @@ export const metadata: Metadata = {
     creator: "@AbdelrahmanSalemQotb",
     images: [
       {
-        url: "https://the-wild-oasis-website-salem.vercel.app/thumbnail.png",
+        url: "https://the-wild-oasis-booking-salem.vercel.app/thumbnail.png",
         width: 1920,
         height: 1080,
-        alt: "Thumbnail image of The Wild Oasis Booking website",
+        alt: "Thumbnail image of The Wild Oasis Booking booking",
       },
     ],
   },
