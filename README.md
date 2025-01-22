@@ -56,7 +56,7 @@ To run this project locally:
    First, clone the repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/AbdelrahmanSalemQotb/the-wild-oasis-booking
+   git clone https://github.com/AbdelrahmanSalemQotb/the-wild-oasis-booking.git
    ```
 
 2. **Install dependencies:**
@@ -263,4 +263,4 @@ create table public.settings (
 
 ## Acknowledgments
 
-Special thanks to Jonas Schmedtmann for the comprehensive Udemy course that guided the development of this project.
+Special thanks to [Jonas Schmedtmann](https://jonas.io/) for the comprehensive [Udemy course](https://www.udemy.com/course/the-ultimate-react-course) that guided the development of this project.
