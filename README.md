@@ -1,27 +1,21 @@
 <div align="center">
-   <img src="./public/logo.png" alt="logo" width="90" height="auto">
-   <h1>The Wild Oasis - Booking</h1>
-   
-   <h3>
-      <a href="https://the-wild-oasis-booking-salem.vercel.app">
-         <strong>Live Site</strong>
-      </a>
-   </h3>
 
-   <div>
-      <a href="https://github.com/AbdelrahmanSalemQotb/the-wild-oasis-booking/issues">Report Bug</a>
-      •
-      <a href="https://github.com/AbdelrahmanSalemQotb/the-wild-oasis-booking/pulls">Request Feature</a>
-   </div>
+![logo](./public/logo.png)
+
+# The Wild Oasis - Booking
+
+### [**Live Site**](https://the-wild-oasis-booking-salem.vercel.app)
+
+[Report Bug](https://github.com/AbdelrahmanSalemQotb/the-wild-oasis-booking/issues)
+•
+[Request Feature](https://github.com/AbdelrahmanSalemQotb/the-wild-oasis-booking/pulls)
 
    <hr>
+   
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/abdelrahman-salem-qotb)
 
-   <div>
-      <a href="https://www.linkedin.com/in/abdelrahman-salem-qotb">
-         <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
-      </a>
-      <img src="https://img.shields.io/badge/Status-Completed-success?style=flat" alt="status">
-   </div>
+![Status](https://img.shields.io/badge/Status-Completed-success?style=flat)
+
 </div>
 
 ## Description
@@ -258,12 +252,12 @@ create table public.settings (
 
 ### Abdelrahman Salem
 
-   <div align="center">
+<div align="center">
 
 [![GitHub Profile](https://img.shields.io/badge/GitHub-Profile-black?style=flat-square&logo=github)](https://github.com/AbdelrahmanSalemQotb)
 [![LinkedIn Connect](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/abdelrahman-salem-qotb)
 
-   </div>
+</div>
 
 > Feel free to reach out for questions, collaborations, or discussions about the project!
 
