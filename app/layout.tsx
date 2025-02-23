@@ -76,6 +76,9 @@ export const viewport: Viewport = {
 function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="google-site-verification" content="t3b38dQX-eQQ5VRogVZwwnAe_Sn1XNrFiym7mwL3Prw" />
+      </head>
       <body
         className={` ${Josefin.className} relative flex min-h-screen flex-col bg-primary-950 text-primary-100 antialiased`}
       >
