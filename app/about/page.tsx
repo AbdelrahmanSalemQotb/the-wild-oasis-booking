@@ -13,7 +13,7 @@ export const metadata = {
 async function page() {
   const cabins = await getCabins();
   return (
-    <div className="grid grid-cols-1 items-center gap-x-24 gap-y-14 text-sm md:text-lg lg:grid-cols-5 lg:gap-y-32">
+    <main className="grid grid-cols-1 items-center gap-x-24 gap-y-14 text-sm md:text-lg lg:grid-cols-5 lg:gap-y-32">
       <div className="lg:col-span-3">
         <h1 className="mb-6 text-center text-xl font-medium text-accent-400 sm:text-2xl md:mb-10 md:text-start md:text-4xl">
           Welcome to The Wild Oasis
@@ -85,7 +85,7 @@ async function page() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 

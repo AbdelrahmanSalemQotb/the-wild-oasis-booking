@@ -19,7 +19,7 @@ async function page(props: {
   const filter = searchParams.capacity ?? "all";
 
   return (
-    <div className="">
+    <main>
       <h1 className="mb-5 text-center text-2xl font-medium text-accent-400 sm:text-start sm:text-4xl">
         Our Luxury Cabins
       </h1>
@@ -39,7 +39,7 @@ async function page(props: {
         <CabinList filter={filter} />
         <ReservationReminder />
       </Suspense>
-    </div>
+    </main>
   );
 }
 

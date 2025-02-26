@@ -33,7 +33,7 @@ async function page({ params }: { params: Promise<{ cabinId: string }> }) {
   const cabin = await getCabin(Number(cabinId));
 
   return (
-    <div className="mx-auto mt-8 max-w-6xl">
+    <main className="mx-auto mt-8 max-w-6xl">
       <Cabin cabin={cabin} />
       <div>
         <h2 className="mb-2 text-center text-xl font-semibold text-accent-400 sm:text-3xl md:mb-10 md:text-5xl">
@@ -43,7 +43,7 @@ async function page({ params }: { params: Promise<{ cabinId: string }> }) {
           <Reservation cabin={cabin} />
         </Suspense>
       </div>
-    </div>
+    </main>
   );
 }
 

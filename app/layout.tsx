@@ -82,9 +82,9 @@ function RootLayout({ children }: { children: React.ReactNode }) {
         <Header />
 
         <div className="grid flex-1 px-5 py-6 sm:px-8 sm:py-12">
-          <main className="mx-auto h-full w-full max-w-7xl">
+          <div className="mx-auto h-full w-full max-w-7xl">
             <ReservationProvider>{children}</ReservationProvider>
-          </main>
+          </div>
         </div>
       </body>
     </html>
