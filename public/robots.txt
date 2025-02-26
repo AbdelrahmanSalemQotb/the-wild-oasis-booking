@@ -1,9 +1,8 @@
 User-agent: *
 Disallow: /account/
 Disallow: /api/
+Disallow: /*?
+
 Allow: /
-Allow: /cabins/
-Allow: /about/
-Allow: /login/
 
 Sitemap: https://the-wild-oasis-booking-salem.vercel.app/sitemap.xml
