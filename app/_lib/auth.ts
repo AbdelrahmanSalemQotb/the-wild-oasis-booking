@@ -22,15 +22,23 @@ const config: NextAuthConfig = {
         if (!user.email) throw new Error("No email found");
         if (!user.name) throw new Error("No name found");
 
-        const existingGuest = await fetchGuestWithRetry(user.email);
+        let existingGuest = null;
+    
+        try {
+            existingGuest = await fetchGuestWithRetry(user.email);
+
+        } catch (err) {
+            console.warn("User not found, creating a new one...");
+        }
 
         if (!existingGuest) {
-          await createGuest({
-            email: user.email,
-            fullName: user.name,
-          });
+           await createGuest({
+           email: user.email,
+           fullName: user.name,
+         });
         }
-        return true;
+
+    return true;
       } catch (error) {
         console.error("SignIn error:", error);
         return false;
